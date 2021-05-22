@@ -1,0 +1,61 @@
+html{
+    scroll-behavior: smooth auto;
+}
+body{
+    text-align: center;
+    background: linear-gradient(90deg, rgba(29,16,237,1) 19%, rgba(46,219,28,1) 39%, rgba(47,234,12,1) 48%, rgba(46,233,19,1) 51%, rgba(0,212,255,1) 82%);
+}
+img{
+    transition: transform .2s;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 220px;
+    width: 220px;
+}
+img:hover{
+    transform: scale(0.9);
+}
+.line{
+    width: 500px;
+    height: 10px;
+    position: center;
+    background: black;
+    margin:8px auto;
+}
+#my game{
+    width: 100%;
+    height: 800px;
+}
+.container{
+    text-align: center;
+}
+#myCarousel{
+background-color: blue;
+}
+#myCarousel img{
+height: 225px;
+margin-top: 35px; 
+}
+.carousel-inner p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 30px;
+}
+.menu{
+font-family: 'Dancing Script', cursive;
+position:fixed;
+cursor: pointer;
+font-weight: 700;
+list-style:none;
+}
+.Home{
+float: left;
+padding-left: 33px;
+padding-right: 25px;
+font-size: 25px;
+color: black
+}
+.Home:hover{
+background-color: red;
+}
